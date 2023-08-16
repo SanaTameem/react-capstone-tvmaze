@@ -1,72 +1,80 @@
-.main-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.search-bar{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background-color: #3C948B;
-    padding-bottom: 20px;
-}
-.form{
-    width: 30%;
-}
-.search-box{
-    width: 100%;
-    padding: 10px;
-    border-radius: 22px;
-    border: none;
-    font-size: 20px;
-    background-color: #3f3f3f;
-    color: #fff;
-}
-.search-box::placeholder{
-    text-align: center;
-    font-size: 18px;
-    color: #fff;
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.cards-container{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border: 2px solid #000;
-}
-.show-card{
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    border: 2px solid #000;
-}
-.card-img{
-    display: flex;
-    gap: 5px;
-    justify-content: space-between;
-    width: 90%;
-    height: 320px;
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #3c948b;
+  padding-bottom: 20px;
 }
 
-.card-img img{
-    width: 100%;
-    height: 100%;
+.form {
+  width: 30%;
 }
-.next-icon{
-    font-size: 30px;
-    color: #fff;
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  border-radius: 22px;
+  border: none;
+  font-size: 20px;
+  background-color: #3f3f3f;
+  color: #fff;
 }
-.home-details{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: flex-start;
-    padding: 10px;
-    font-size: 18px;
-    color: #fff;
+
+.search-box::placeholder {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.cards-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 2px solid #000;
+}
+
+.show-card {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid #000;
+}
+
+.card-img {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  width: 90%;
+  height: 320px;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.next-icon {
+  font-size: 30px;
+  color: #fff;
+}
+
+.home-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
 }

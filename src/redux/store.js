@@ -1,9 +1,10 @@
-import { configureStore } from "@reduxjs/toolkit";
-import showsReducer from './Show/ShowSlice'
+import { configureStore } from '@reduxjs/toolkit';
+import showsReducer from './Show/ShowSlice';
+
 const store = configureStore({
-    reducer:{
-        show: showsReducer,
-    }
+  reducer: {
+    show: showsReducer,
+  },
 });
 
 export default store;

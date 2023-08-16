@@ -5,15 +5,15 @@ import ShowsContainer from './components/ShowsContainer';
 import ShowDetails from './components/ShowDetails';
 
 function App() {
-  return(
+  return (
     <div className="App">
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<ShowsContainer/>} />
-      <Route path="/showDetails/:id" element={<ShowDetails/>} />
-    </Routes>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<ShowsContainer />} />
+        <Route path="/showDetails/:id" element={<ShowDetails />} />
+      </Routes>
     </div>
-  )
+  );
 }
 
 export default App;
