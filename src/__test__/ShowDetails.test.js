@@ -6,8 +6,6 @@ import configureMockStore from 'redux-mock-store';
 import ShowDetails from '../components/ShowDetails';
 import '@testing-library/jest-dom/extend-expect';
 
-const mockStore = configureMockStore([]);
-
 describe('ShowDetails', () => {
   it('renders the component with tvmaze show details', () => {
     const showDetails = {
@@ -28,25 +26,22 @@ describe('ShowDetails', () => {
       },
     };
 
-     const mockStore = configureMockStore([]);
+    const mockStore = configureMockStore([]);
     const store = mockStore(initialState);
 
-    
-    const { getByText } = render(
+    render(
       <Provider store={store}>
         <MemoryRouter initialEntries={['/show/1']}>
           <Routes>
             <Route path="/show/:id" element={<ShowDetails />} />
           </Routes>
         </MemoryRouter>
-      </Provider>
+      </Provider>,
     );
 
-    // Use `getByText`, `queryByText`, or `findByText` to assert on the rendered content
-     expect(screen.getByText('Test Show')).toBeInTheDocument();
+    expect(screen.getByText('Test Show')).toBeInTheDocument();
     expect(screen.getByText('22:00')).toBeInTheDocument();
     expect(screen.getByText('6.5')).toBeInTheDocument();
     expect(screen.getByText('Thursday')).toBeInTheDocument();
-    // ... assert other details
   });
 });

@@ -14,8 +14,6 @@ function Navbar() {
         <FontAwesomeIcon icon={faGear} className="user-icon" />
       </div>
     </div>
-
-  // <button>&lt; Back To Home</button>
   );
 }
 
