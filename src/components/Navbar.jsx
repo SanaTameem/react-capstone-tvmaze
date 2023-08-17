@@ -6,7 +6,7 @@ import logo from '../assets/tvm-header-logo.png';
 
 function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar" data-testid="navbar">
       <img src={logo} alt="logo" className="logo" />
       <h1>TVMAZE Shows</h1>
       <div className="setting-mic">
