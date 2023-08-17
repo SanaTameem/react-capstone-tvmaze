@@ -32,7 +32,7 @@
 .search-box::placeholder {
   text-align: center;
   font-size: 18px;
-  color: #fff;
+  color: #b8b6b6;
 }
 
 .cards-container {
@@ -55,8 +55,8 @@
   display: flex;
   gap: 5px;
   justify-content: space-between;
-  width: 90%;
-  height: 320px;
+  width: 100%;
+  height: 360px;
 }
 
 .card-img img {
@@ -77,4 +77,66 @@
   padding: 10px;
   font-size: 18px;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-img {
+    width: 85%;
+    height: 200px;
+  }
+
+  .card-img img {
+    width: 94%;
+    height: 95%;
+  }
+
+  .next-icon {
+    font-size: 18px;
+  }
+
+  .navbar h1 {
+    display: none;
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 0 13px;
+  }
+
+  .setting-mic {
+    width: 20%;
+  }
+
+  .form {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card-img {
+    width: 76%;
+    height: 310px;
+  }
+
+  .next-icon {
+    font-size: 25px;
+  }
+
+  .form {
+    width: 50%;
+  }
 }
