@@ -63,7 +63,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://tvmaze-shows.onrender.com/)
+- [Video presentation Link](https://www.loom.com/share/fb3735edaccf43588daece96b8fb021e?sid=422bfc02-37e3-45a4-b7b1-6477f5917291)
+  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
