@@ -36,27 +36,27 @@ function ShowDetails() {
                 src={show.image}
                 alt={show.name}
               />
-            </div>
-            <div className="details-container">
               <div className="title">
                 {show.name}
-                &apos;s details:
+                &apos;s details
               </div>
+            </div>
+            <div className="details-container">
               <ul className="details-info">
                 <li className="details-item">
-                  <span className="details-name">Name : </span>
+                  <span className="details-name">Name</span>
                   <span className="details-response">{show.name}</span>
                 </li>
                 <li className="details-item">
-                  <span className="details-name">Day : </span>
+                  <span className="details-name">Day</span>
                   <span className="details-response">{show.day}</span>
                 </li>
                 <li className="details-item">
-                  <span className="details-name">Language : </span>
+                  <span className="details-name">Language</span>
                   <span className="details-response">{show.language}</span>
                 </li>
                 <li className="details-item">
-                  <span className="details-name">Genres : </span>
+                  <span className="details-name">Genres</span>
                   <span className="details-response">{show.genres.join(' | ')}</span>
                 </li>
                 <li className="details-item">
@@ -64,27 +64,27 @@ function ShowDetails() {
                   <span className="details-response">{show.rating}</span>
                 </li>
                 <li className="details-item">
-                  <span className="details-name">Time : </span>
+                  <span className="details-name">Time</span>
                   <span className="details-response">{show.time}</span>
                 </li>
                 <li className="details-item">
-                  <span className="details-name">Popularity/Weight : </span>
+                  <span className="details-name">Popularity/Weight</span>
                   <span className="details-response">{show.popularity}</span>
                 </li>
                 <li className="details-item">
-                  <span className="details-name">Runtime : </span>
+                  <span className="details-name">Runtime</span>
                   <span className="details-response">{show.runtime}</span>
                 </li>
                 <li className="details-item">
-                  <span className="details-name">Average Runtime : </span>
+                  <span className="details-name">Average Runtime</span>
                   <span className="details-response">{show.averageRunTime}</span>
                 </li>
                 <li className="details-item">
-                  <span className="details-name">Start : </span>
+                  <span className="details-name">Start</span>
                   <span className="details-response">{show.started}</span>
                 </li>
                 <li className="details-item">
-                  <span className="details-name">End : </span>
+                  <span className="details-name">End</span>
                   <span className="details-response">{show.ended}</span>
                 </li>
 
