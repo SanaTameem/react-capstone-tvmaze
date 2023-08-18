@@ -40,28 +40,26 @@ function ShowsContainer() {
       <div className="cards-container">
         {filteredData.map((item) => (
           <div className="show-card" key={item.id}>
-            <div className="card-img">
-              <Link
+            <div className="card-img" style={{ backgroundImage: `url(${item.image})` }}>
+              {/* <Link
                 to={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 role="link"
                 tabIndex="0"
-              >
-                <img
+              > */}
+              {/* <img
                   src={item.image}
                   alt="show-imgs"
 
-                />
-              </Link>
+                /> */}
+              {/* </Link> */}
               <Link to={`/showDetails/${item.id}`}>
                 <FontAwesomeIcon icon={faCircleArrowRight} className="next-icon" />
               </Link>
             </div>
             <div className="home-details">
               <p className="name">
-                Name :
-                {' '}
                 {item.name}
               </p>
               <p className="rating">
