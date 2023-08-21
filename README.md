@@ -1,8 +1,13 @@
 <a name="readme-top"></a>
 
+<p align="center">
+  <img src="/src/assets/RSn9.gif" alt="Animation" width="150">
+</p
+<a name="readme-top"></a>
+
 <div align="center">
 
-  <h1><b>TVMAZE Shows</b></h1>
+  <h1><b>📺 TVMAZE Shows</b></h1>
 
 </div>
 
